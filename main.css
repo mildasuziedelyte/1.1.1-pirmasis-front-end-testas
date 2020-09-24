@@ -1,0 +1,39 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-break: break-all;
+}
+
+body{
+    display: inline-block;
+    text-align: center;
+}
+
+    div{
+        display: inline-block;
+        width:500px;
+        background-color: red;
+        border: 10px solid orange;
+        padding: 20px;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+    }
+
+        h1{
+            padding: 10px 0;
+        }
+
+        p{
+            font-weight: bold;
+            font-size: 20px;
+            color: #EE82EE;
+            padding: 10px 0px;
+            margin: 20px 0;
+            border: 1px solid black;
+        }
